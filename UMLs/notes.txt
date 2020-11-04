@@ -1,0 +1,42 @@
+Explainer for UML and flow charts (external)
+http://www.cs.bsu.edu/~pvgestwicki/misc/uml/
+
+DUE: FRIDAY MORNING 11-6-20
+Project overview - Create UML diagrams for list of products.
+Exercise knowledge of Java in implementing base ID, states, and behaviors in a manner consistent with UML diag standards
+
+UML would represent chosen identities states and behaviors.
+Example:
+
+//establish a class with ID
+public class ExampleProductWake {
+
+  //establish variables and encapsulate the state
+  private int batteryLevel;
+  public String greeting;
+
+  //Use a constructor for runtime state update
+  public ExampleProductWake) {
+    public String greeting = "Hello!";
+    private int battery = 100;
+    wakeUpString = String.format(greeting + "I have %d battery, and I'm ready to go", battery);
+    return wakeUpString;
+  }
+
+  //establish methods to use when states need to be altered, or actions taken on the object
+  // Good opportunity to try and use polymorphism.
+  // Example - Have two methods named "setBattery" using one to accept direct assignment from input integer,
+     // value representing "decrement" or "increment" which dings or adds one point to battery
+     // and one to accept a string
+  private static Integer setBattery(int battery) {
+    battery = newValue;
+    return battery
+  }
+
+  public String setGreeting(string greeting) {
+    newGreeting = greeting;
+    return newGreeting;
+  }
+
+}
+
